@@ -7,7 +7,7 @@ import secrets
 import string
 
 def seed_generator():
-    """ Function for planting seed """
+    """ Function for planting seeds """
 
     ascii_char = 'string.ascii_letters + string.ascii_digits'
     seed = ''.join(secrets.choice(ascii_char) for char in range(37))
